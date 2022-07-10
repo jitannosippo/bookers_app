@@ -1,0 +1,155 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+p{
+  display:block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#success{
+  color:green;
+}
+h1{
+  display:block;
+  font-size:2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight:bold;
+}
+table{
+  display:table;
+  border-collapse:separate;
+  box-sizing:border-box;
+  text-indent:initial;
+  border-spacing:2px;
+  border-color:gray;
+}
+thead{
+  display:table-header-group;
+  vertical-align:middle;
+  border-color:inherit;
+}
+tr{
+  display:table-row;
+  vertical-align:inherit;
+  border-color:inherit;
+  margin:5px 0 5px;
+}
+th{
+  display:table-cell;
+  vertical-align:inherit;
+  font-weight:bold;
+  text-align:-internal-center;
+  margin-bottom:-5px;
+}
+tbody{
+  display:table-row-group;
+  vertical-align:middle;
+  border-color:inherit;
+}
+.new{
+  display:block;
+  font-size:1.5em;
+  font-weight:bold;
+}
+form{
+  display:block;
+  margin-top:0em;
+}
+input[type="hidden" i]{
+  appearance:none;
+  background-color:initial;
+  cursor:default;
+  display:none !important;
+  padding:initial;
+  border:initial;
+}
+input[type="submit" i]{
+  display:block;
+  appearance:auto;
+  user-select:none;
+  white-space:pre;
+  align-items:flex-start;
+  text-align:center;
+  cursor:default;
+  box-sizing:border-box;
+  background-color:buttonface;
+  color:buttontext;
+  padding:1px 6px;
+  border-width:2px;
+  border-style:outset;
+  border-color:buttonborder;
+  border-image:initial;
+}
+input{
+  writing-mode:horizontal-tb !important;
+  text-rendering:auto;
+  color:fieldtext;
+  letter-spacing:normal;
+  word-spacing:normal;
+  line-height:normal;
+  text-transform:none;
+  text-indent:0px;
+  text-shadow:none;
+  text-align:start;
+  -webkit-rtl-ordering:logical;
+  margin:0em;
+}
+.field,.actions{
+  margin-bottom:0px;
+}
+.btn{
+  display:block;
+  margin-top:5px;
+  margin-bottom:15px;
+}
+h4{
+  font-weight:normal;
+  display:inline;
+  cursor:default;
+}
+
+strong{
+  font-weight:bold;
+}
+.field_with_errors{
+  padding:2px;
+  display:table;
+}
+.field{
+  background-color:red;
+  padding:2px;
+}
+
+#error{
+  width:450px;
+  border:2px solid red;
+  margin:0 0 20px;
+  padding:0 0 7px;
+  background-color:#f0f0f0;
+  margin-top:10px;
+  margin-botom:10px;
+}
+#error h2{
+  text-align:left;
+  font-weight:bold;
+  font-size:12px;
+  background-color:#cc0000;
+  color:#fff;
+  line-height:2em;
+  margin-top:-20px;
+}
+#error ul{
+  font-size:12px;
+  list-style:square;
+}
+#error li{
+  margin-left:30px;
+}
+#book_title,#book_body{
+  margin:5px 0 5px;
+}
